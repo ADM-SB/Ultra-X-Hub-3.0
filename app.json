@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Ultra X Hub 3.0",
+    "slug": "ultra-x-hub-3-0",
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.ultraxhub.hub3",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-local-authentication"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "75ba1c58-ff2f-47bd-ab80-b9d9b6b28f5b"
+      }
+    }
+  }
+}
